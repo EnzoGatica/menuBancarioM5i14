@@ -30,14 +30,14 @@
         android:ems="10"
         android:gravity="center"
         android:hint="0-0-0-0"
-        android:inputType="text"
+        android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/editTextDos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cardView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.377" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextDos"
         android:layout_width="202dp"
         android:layout_height="59dp"
@@ -83,28 +83,28 @@
             android:layout_marginTop="16dp">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioVerSaldo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ver saldo"
                 android:textColor="#FBFBFB" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioIngresar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ingresar"
                 android:textColor="#FFFFFF" />
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioRetirar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Retirar"
                 android:textColor="#FDFDFD" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioSalir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Salir"
